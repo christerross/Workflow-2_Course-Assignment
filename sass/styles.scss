@@ -1,0 +1,207 @@
+
+
+
+
+/*Mobile Devices*/
+
+/*Header*/
+header:first-child{
+    background: #4E8F55;
+    margin-bottom: 1px;
+}
+
+header:first-child h1{
+    color: #fffff8;
+    line-height: 0;
+    padding: 10vw 3rem;
+    text-align: center;
+    margin: 0;
+    font-family: 'Bungee Outline', cursive;
+    font-size: 10vw;
+}
+
+/*Images*/
+
+.homecol{
+    position: relative;
+    text-align: center;
+    color: #fffff8;
+}
+
+#aboutcol1 {
+    position: relative;
+    text-align: center;
+    color: #fffff8;
+}
+
+#contactcol1 {
+    position: relative;
+    text-align: center;
+    color: #fffff8;
+}
+
+#tourscol1 {
+    position: relative;
+    text-align: center;
+    color: #fffff8;
+}
+
+.subhead1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7.5vw;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.subhead2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15vw;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.img {
+    opacity: 0.7;
+}
+
+/*Main*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background: #fffff8;
+    margin: 0;
+}
+
+.con4, .con6, .con8 {
+    background: #FFFff8;
+    padding: 20px;
+    margin: 3vw;
+    display: block;
+}
+
+/*Navbar*/
+.topnav ul{
+    list-style: none;
+    padding: 0;
+    background: #444;
+    margin: 0;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.topnav ul li a {
+    color: #ddd;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: block;
+    text-align: center;
+}
+
+.topnav ul li a:hover {
+    background-color: #4E8F55;
+    color: #444;
+}
+
+.topnav ul li a:active {
+    background-color: #4E8F55;
+    color: #fffff1;
+}
+
+.topnav ul li {
+    border-bottom: 1px solid #ddd;
+}
+
+/*Footer*/
+footer{
+    background: #444;
+}
+
+.footernav {
+    background: #444;
+    overflow: hidden;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    color: #fffff1;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+}
+
+.footernav a {
+    float: left;
+    display: block;
+    color: #fffff1;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 3vw;
+}
+
+.footernav a:hover {
+    background-color: #4E8F55;
+    color: #444;
+}
+
+.footernav a:active {
+    background-color: #4E8F55;
+    color: #fffff1;
+}
+
+.copy {
+    text-align: center;
+    color: #fffff1;
+    
+}
+
+/*Tablet*/
+
+@media only screen and (min-width: 700px) {
+    body{
+        font-size: 1.2rem;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 950px) {
+    body{
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+    
+    .topnav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    background: #444;
+    margin: 0;
+    border-bottom: 1px solid #fffff8;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+    .topnav ul a {
+    color: #ddd;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: block;
+    text-align: center;
+}
+
+    .topnav ul li a:hover {
+    background-color: #4E8F55;
+    color: #444;
+}
+
+    .topnav ul li a:active {
+    background-color: #4E8F55;
+    color: #fffff1;
+}
+
+.topnav ul li {
+    border-bottom: 1px solid #ddd;
+}
+    
+}
+    
